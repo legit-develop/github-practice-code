@@ -1,8 +1,8 @@
 const btnEl = document.querySelector(".btn");
 
 btnEl.addEventListener("mouseover", (e) => {
-  const letter = btnEl.offsetLeft;
-  const let_2 = btnEl.offsetTop;
-  console.log(let_2);
-  console.log(letter);
+  const x = e.pageX - btnEl.offsetLeft;
+  const y = e.pageY - btnEl.offsetTop;
+  btnEl.style.setProperty("--xPos", x + "px");
+  btnEl.style.setProperty("--yPos", y + "px");
 });
