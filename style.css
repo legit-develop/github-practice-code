@@ -22,3 +22,18 @@ body {
   letter-spacing: 4px;
   text-shadow: 4px 1px 5px #000;
 }
+
+.btn {
+  padding: 10px 20px;
+  width: 200px;
+  cursor: pointer;
+  background: rgb(243, 103, 53);
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.btn:hover {
+  filter: saturate(30%);
+  color: #fff;
+}
