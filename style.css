@@ -37,3 +37,8 @@ body {
   filter: saturate(30%);
   color: #fff;
 }
+
+.hide-container {
+  visibility: hidden;
+  height: 20vh;
+}
