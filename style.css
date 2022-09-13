@@ -14,3 +14,11 @@ body {
   background-size: cover;
   text-align: center;
 }
+
+.container h1 {
+  color: #fff;
+  font-size: 60px;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 4px;
+  text-shadow: 4px 1px 5px #000;
+}
