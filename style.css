@@ -42,3 +42,25 @@ body {
   visibility: hidden;
   height: 20vh;
 }
+
+.active.container {
+  filter: blur(5px) brightness(0.7);
+}
+
+.popup-container {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: lightgray;
+  width: 400px;
+  height: 200px;
+  top: 30%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background: url("./images/nature/nature_3.jpg");
+  background-size: cover;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
