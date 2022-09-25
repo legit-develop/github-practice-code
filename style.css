@@ -1,3 +1,7 @@
+:root {
+  --heading-color: red;
+}
+
 h1 {
-  font-size: clamp(100px, 20vw, 20rem);
+  color: var(--heading-color);
 }
