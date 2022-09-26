@@ -71,3 +71,15 @@ img {
     column-gap: 2rem;
   }
 }
+
+.content {
+  display: none;
+}
+
+.content.live {
+  display: block;
+}
+
+.button.live {
+  background: #b9fff8;
+}
