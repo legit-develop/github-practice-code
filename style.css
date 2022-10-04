@@ -35,3 +35,27 @@ img {
   color: rgb(247, 247, 150);
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
 }
+
+.twelve {
+  left: 50%;
+  transform: translateX(-50%);
+  top: 6px;
+}
+
+.three {
+  top: 50%;
+  transform: translateY(-50%);
+  right: 6px;
+}
+
+.nine {
+  top: 50%;
+  transform: translateY(-50%);
+  left: 6px;
+}
+
+.six {
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 6px;
+}
