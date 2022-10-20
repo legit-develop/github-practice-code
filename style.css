@@ -12,3 +12,12 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.calender {
+  background: #3c4048;
+  color: #fff;
+  width: 450px;
+  height: 520px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
