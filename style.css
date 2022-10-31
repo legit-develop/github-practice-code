@@ -83,3 +83,7 @@ body {
 * {
   box-sizing: border-box;
 }
+
+.today {
+  background: #00abb3;
+}
