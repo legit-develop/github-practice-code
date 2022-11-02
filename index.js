@@ -8,4 +8,7 @@ const monthEl = document.querySelector(".date h1");
 const fullDateEl = document.querySelector(".date p");
 
 //get last day of the month
-const lastDay = new Date(new Date().getFullYear(), monthInx + 1);
+const lastDay = new Date(new Date().getFullYear(), monthInx + 1, 0).getDate();
+
+//get Days Element
+const daysEl = document.querySelector(".days");
