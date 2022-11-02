@@ -36,3 +36,6 @@ console.log(months[monthInx]);
 
 //Dynamicall insert current month
 monthEl.innerText = months[monthInx];
+
+//Dynamically insert date
+fullDateEl.innerText = new Date().toDateString();
