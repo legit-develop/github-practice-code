@@ -12,3 +12,6 @@ const lastDay = new Date(new Date().getFullYear(), monthInx + 1, 0).getDate();
 
 //get Days Element
 const daysEl = document.querySelector(".days");
+
+//get first days
+const firstDay = new Date(new Date().getFullYear(), monthInx, 1).getDay() - 1;
