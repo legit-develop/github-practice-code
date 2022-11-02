@@ -15,3 +15,21 @@ const daysEl = document.querySelector(".days");
 
 //get first days
 const firstDay = new Date(new Date().getFullYear(), monthInx, 1).getDay() - 1;
+
+//Months Array
+const months = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
+
+console.log(months[monthInx]);
