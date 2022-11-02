@@ -33,3 +33,6 @@ const months = [
 ];
 
 console.log(months[monthInx]);
+
+//Dynamicall insert current month
+monthEl.innerText = months[monthInx];
