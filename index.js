@@ -39,3 +39,20 @@ monthEl.innerText = months[monthInx];
 
 //Dynamically insert date
 fullDateEl.innerText = new Date().toDateString();
+
+//automatic date selection functionality
+let days = "";
+
+for (let i = firstDay; i > 0; i--) {
+  days += `<div class='empty'></div>`;
+}
+
+for (let i = 1; i < lastDay; i++) {
+  if (i === new Date().getDate()) {
+    days += `<div class='today'>${i}</div>`;
+  } else {
+    days += `<div>${i}</div>`;
+  }
+}
+
+daysEl.innerHTML = days;
